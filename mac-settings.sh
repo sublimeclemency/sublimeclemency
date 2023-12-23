@@ -1,8 +1,10 @@
 #!/bin/bash
 
-printf "hi, this bash script is for changing some macos settings, and is located at:\n$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )\nplease edit this to your preferences.\n\n"
+printf "hi, this bash script is for changing some macos settings, and is located at:\n$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )\nplease edit this to your preferences.\n\nnote that some settings need to be refreshed later by logging out and back in later.\n"
 read -p "if you have already carefully edited this bash script, input y to run. " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
+# this feature lets you move windows by holding control+command and dragging any part of window
+defaults write -g NSWindowShouldDragOnGesture -bool true
 
 # hot corners
 # possible values:
