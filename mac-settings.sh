@@ -50,7 +50,7 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 ## key repeat initial delay
 defaults write -g InitialKeyRepeat -int 10
 ## key repeat speed
-defaults write -g KeyRepeat -int 1.7
+defaults write -g KeyRepeat -int 2
 ## disable auto capitalization
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 ## disable "smart" dashes
