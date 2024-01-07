@@ -43,6 +43,8 @@ brew install imagemagick
 # file sync
 brew install syncthing
 
+# lightweight disk usage analyzer in the cli
+brew install dua-cli
 
 # hugo is a static site generator
 brew install hugo
