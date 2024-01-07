@@ -1,0 +1,55 @@
+/* for this css snippet to work you install the obsidian ninja cursor plugin */
+
+.cursorWrapper .x-cursor {
+	background: rgba(49, 177, 235, 1);
+	width: 3px;
+	left: -1px;
+	top: calc( -1px - var(--header-height));;
+	height: calc(2px + var(--cursor-height));
+	/* cursor movement animation speed - longer means the cursor moves slower */
+	transition: all 0ms !important;
+}
+
+.theme-light .x-cursor {
+	background: rgba(49, 177, 235, 1);
+}
+
+.theme-dark .x-cursor {
+	background: rgba(255,255,255,1);
+}
+
+/* remove normal cursor when ninjacursor is installed */
+body:has(.x-cursor) .cm-editor * { caret-color: transparent; }
+
+/* disable ninja cursor movement effect */
+.cursorWrapper .x-cursor::after {
+	display: none;
+}
+
+/* remove normal cursor on text selection */
+.cm-cursorLayer {
+	animation: none !important;
+	visibility: hidden !important;
+}
+
+/* blinking */
+.cursorWrapper .x-cursor0 {
+	animation: blink0 5s 5s both infinite;
+}
+.cursorWrapper .x-cursor1 {
+	animation: blink1 5s 5s both infinite;
+}
+
+@keyframes blink1 {
+	0%   { opacity: 1; }
+	45%  { opacity: 0.9; }
+	95%  { opacity: 0.1; }
+	100% { opacity: 0.05; }
+}
+
+@keyframes blink0 {
+	0%   { opacity: 1; }
+	45%  { opacity: 0.9; }
+	95%  { opacity: 0.1; }
+	100% { opacity: 0.05; }
+}
