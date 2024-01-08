@@ -57,6 +57,8 @@ brew tap oven-sh/bun
 brew install bun
 
 
+# fast terminal-ui for git written in rust
+brew install gitui
 
 # other
 ## building c software
