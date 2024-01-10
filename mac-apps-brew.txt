@@ -89,6 +89,10 @@ brew install --cask freetube
 
 brew install --cask forkgram-telegram
 
+> #opensource macOS desktop automation tool
+
+brew install hammerspoon --cask
+
 > #opensource ipa files (ios custom apps) installer
 
 brew install --cask altserver
