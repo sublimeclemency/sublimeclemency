@@ -40,7 +40,9 @@ brew install pypy3
 brew install imagemagick
 
 
-# file sync
+# the most popular open source file sync tool.
+# homwbrew will tell you how to open this every time you log in
+# do configurations with web ui at http://localhost:8384
 brew install syncthing
 
 # lightweight disk usage analyzer in the cli
