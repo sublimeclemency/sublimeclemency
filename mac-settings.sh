@@ -53,6 +53,8 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write -g InitialKeyRepeat -int 10
 ## key repeat speed
 defaults write -g KeyRepeat -int 2
+## cursor movement speed
+defaults write NSGlobalDomain KeyRepeat -int 5
 ## disable auto capitalization
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 ## disable "smart" dashes
@@ -91,10 +93,15 @@ defaults write com.apple.dock launchanim -bool false
 ## disable delay when you hide the Dock
 defaults write com.apple.dock autohide-delay -float 0
 ## change mission control animation speed and when switching desktops
-defaults write com.apple.dock expose-animation-duration -float 0.05
+defaults write com.apple.dock expose-animation-duration -float 0
 ## launchpad: apps rows and columns
 defaults write com.apple.Dock springboard-rows -int 10
 defaults write com.apple.Dock springboard-columns -int 13
+## launchpad show/hide duration
+defaults write com.apple.dock springboard-show-duration -float .1
+defaults write com.apple.dock springboard-hide-duration -float .1
+## launchpad page-flip duration
+defaults write com.apple.dock springboard-page-duration -float .1
 ## make dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 ## enable iTunes/music.app track notifications in the Dock
@@ -279,8 +286,8 @@ defaults write com.apple.iCal "number of hours displayed" -int 16
 # make power button not able to put mac to sleep
 defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool false
 # save screenshots to downloads
-defaults write com.apple.screencapture location -string "~/Downloads"
-# save screenshots in format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture location -string "~/Desktop"
+# save screenshots in format (options: PNG, BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "jpg"
 # screenshot don't show iOS like screenshot thumbnail
 defaults write com.apple.screencapture show-thumbnail -bool false

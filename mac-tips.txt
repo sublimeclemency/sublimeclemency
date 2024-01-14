@@ -1,0 +1,27 @@
+>>> some mac tips to change your life
+
+>> the useful option key
+> clicking wifi or bluetooth tray icon while holding option is going to give you a lot more info and some hidden tools
+
+> clicking in terminal or iterm while pressing option to move your cursor to the clicked position
+
+> right clicking a file or folder while pressing option shows some more options
+
+>> other
+> command + tilde (~) to cycle between windows of the same app!
+
+> after right clicking a file or folder and pressing "get info", you can click the preview icon on the top left and paste any image you want to replace the preview icon
+
+> double clicking window bar of a window to make it expand, and double click again to undo
+
+> hold the green (fullscreen) button in the window bar to use window tiling
+
+> search for "reduce motion" in settings to make desktop switching and stage manager animations much more comfortable
+
+> to use keys like right shift or right command to trigger hot corners shortcuts, go to settings, search for "hot", press the "hot corner shortcuts", close the dialog window that wants you to select four dropdowns, and press "shortcuts..." at the bottom. now you can assign keys to "mission control", "application windows" and "show desktop"
+
+> select a file in finder and press space to quickly view the file! works for many filetypes including markdown, pdf, mp3, mp4...
+
+> picture-in-picture window can be precisely placed by holding down the command key while dragging
+
+> command+option+power to sleep, control+command+option+power to shut down.

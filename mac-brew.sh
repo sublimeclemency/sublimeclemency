@@ -74,6 +74,10 @@ brew install rust
 # cli app for webp image format operations
 brew install webp
 
+# mac custom keymap settings tool
+# this is very powerful input tool, but configuration can be hard. seek documentation at https://github.com/yqrashawn/GokuRakuJoudo
+brew install yqrashawn/goku/goku
+brew services start yqrashawn/goku/goku
 
 # full-featured command-line application for reading and writing meta information in a wide variety of files
 brew install exiftool
