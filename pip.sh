@@ -3,3 +3,6 @@ read -p "if you have already carefully edited this bash script, and make sure yo
 
 # youtube downloader
 pip3 install yt-dlp
+
+# spotify downloader
+pip3 install spotify_dl
