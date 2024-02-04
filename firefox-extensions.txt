@@ -1,0 +1,16 @@
+# this file contains some great firefox extensions worth having a look at
+
+
+https://addons.mozilla.org/en-US/firefox/addon/want-my-rss
+
+https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies
+
+https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager
+
+https://addons.mozilla.org/en-US/firefox/addon/tampermonkey
+
+https://addons.mozilla.org/en-US/firefox/addon/libredirect
+
+https://addons.mozilla.org/en-US/firefox/addon/refined-github-
+
+https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum
