@@ -1,0 +1,6 @@
+# there are many many great apk apps in the fdroid repository. this document lists some great apps that aren't in there.
+
+
+https://github.com/zhanghai/MaterialFiles
+
+https://github.com/FossifyOrg
