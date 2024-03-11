@@ -10,6 +10,8 @@
 >> other
 > command + tilde (~) to cycle between windows of the same app!
 
+> using automator.app, you can set folder actins to execute some applescript every time changes are made to a folder!
+
 > after right clicking a file or folder and pressing "get info", you can click the preview icon on the top left and paste any image you want to replace the preview icon
 
 > double clicking window bar of a window to make it expand, and double click again to undo
