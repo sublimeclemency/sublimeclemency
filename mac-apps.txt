@@ -4,3 +4,6 @@
 
 
 https://github.com/LunarBar-app/LunarBar
+
+> better alternative to kiwix for wikipedia offline browsing
+https://github.com/technusm1/kiwings
