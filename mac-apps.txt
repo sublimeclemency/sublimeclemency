@@ -5,5 +5,8 @@
 
 https://github.com/LunarBar-app/LunarBar
 
+> menu bar management
+https://github.com/jordanbaird/ice
+
 > better alternative to kiwix for wikipedia offline browsing
 https://github.com/technusm1/kiwings
