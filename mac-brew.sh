@@ -74,6 +74,9 @@ brew install rust
 # cli app for webp image format operations
 brew install webp
 
+# app fot video processing to gif
+brew install gifski
+
 # mac custom keymap settings tool
 # this is very powerful input tool, but configuration can be hard. seek documentation at https://github.com/yqrashawn/GokuRakuJoudo
 brew install yqrashawn/goku/goku
