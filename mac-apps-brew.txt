@@ -17,6 +17,9 @@ brew install --cask tor-browser
 
 brew install --cask vitals
 
+> app for video processing to gif
+brew install gifski
+
 > #opensource awesome clipboard history manager
 
 brew install --cask maccy
