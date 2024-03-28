@@ -27,3 +27,5 @@
 > picture-in-picture window can be precisely placed by holding down the command key while dragging
 
 > command+option+power to sleep, control+command+option+power to shut down.
+
+> run "sudo launchctl config user umask 000" to make newly created files have read/write permission for all users
