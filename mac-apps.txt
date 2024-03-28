@@ -2,11 +2,23 @@
 # the apps that can be installed with brew are listed at https://github.com/sublimeclemency/sublimeclemency/blob/main/mac-apps-brew.txt
 # so this file lists useful mac apps that are not on brew
 
-
-https://github.com/LunarBar-app/LunarBar
-
 > menu bar management
 https://github.com/jordanbaird/ice
 
+> image upscale
+https://github.com/upscayl/upscayl
+
+> mtp android file transfer for macos
+https://github.com/ganeshrvel/openmtp
+
 > better alternative to kiwix for wikipedia offline browsing
 https://github.com/technusm1/kiwings
+
+> simple network requests filter. Zen: Your Comprehensive Ad-Blocker and Privacy Guard
+https://github.com/anfragment/zen
+
+> chainner is a powerful image processing chain with ai
+https://github.com/chaiNNer-org/chaiNNer
+
+> calender in menu bar
+https://github.com/LunarBar-app/LunarBar
