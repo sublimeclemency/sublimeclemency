@@ -1,55 +1,54 @@
 /* for this css snippet to work you install the obsidian ninja cursor plugin */
 
+/* cursor size */
 .cursorWrapper .x-cursor {
-	background: rgba(49, 177, 235, 1);
 	width: 3px;
 	left: -1px;
 	top: calc( -1px - var(--header-height));;
 	height: calc(2px + var(--cursor-height));
-	/* cursor movement animation speed - longer means the cursor moves slower */
+	/* cursor movement transition speed - longer means the cursor moves slower */
+	/* i recommend using zero for no delay */
 	transition: all 0ms !important;
 }
 
+/* cursor color on light theme */
 .theme-light .x-cursor {
-	background: rgba(49, 177, 235, 1);
+	background: rgba(0,0,0,1);
 }
-
+/* cursor color on dark theme */
 .theme-dark .x-cursor {
 	background: rgba(255,255,255,1);
 }
 
-/* remove normal cursor when ninjacursor is installed */
+/* remove normal cursor when ninja cursor is installed */
 body:has(.x-cursor) .cm-editor * { caret-color: transparent; }
 
-/* disable ninja cursor movement effect */
+/* ninja cursor movement effect */
 .cursorWrapper .x-cursor::after {
-	display: none;
+	/* the opacity of the effect that shows the cursor movement trail */
+	opacity: 0.1 !important;
+	/* to hide the cursor movement trail, uncomment this */
+	/* display: none; */
 }
 
-/* remove normal cursor on text selection */
+/* hide the default cursor that appears when using text selection */
 .cm-cursorLayer {
 	animation: none !important;
 	visibility: hidden !important;
 }
 
 /* blinking */
-.cursorWrapper .x-cursor0 {
-	animation: blink0 5s 5s both infinite;
-}
-.cursorWrapper .x-cursor1 {
-	animation: blink1 5s 5s both infinite;
-}
-
-@keyframes blink1 {
-	0%   { opacity: 1; }
-	45%  { opacity: 0.9; }
-	95%  { opacity: 0.1; }
-	100% { opacity: 0.05; }
+.cursorWrapper .x-cursor0, .cursorWrapper .x-cursor1 {
+	/* edit opacity of cursor */
+	opacity: 0.8 !important;
+	/* make cursor will have no animation by default */
+	animation: none;
+	/* the following line applies a custom animation to the cursor which uses some extra CPU and GPU so maybe don't enable it */
+	/* animation: blink 5s 5s both infinite; */	
 }
 
-@keyframes blink0 {
+@keyframes blink {
 	0%   { opacity: 1; }
-	45%  { opacity: 0.9; }
-	95%  { opacity: 0.1; }
-	100% { opacity: 0.05; }
+	85%  { opacity: 0.9; }
+	100% { opacity: 0.1; }
 }
