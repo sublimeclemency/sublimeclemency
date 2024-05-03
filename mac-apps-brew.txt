@@ -24,6 +24,14 @@ brew install gifski
 
 brew install --cask maccy
 
+> night shift yellow color changer
+
+brew installl --cask flux
+
+> screen capture
+
+brew install --cask licecap
+
 > #opensource best ai app of all time - Concurrently chat with ChatGPT, Bing Chat, Bard, Claude, ChatGLM and more
 
 brew install --cask chatall
