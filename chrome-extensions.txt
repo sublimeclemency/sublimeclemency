@@ -1,6 +1,0 @@
-# this file contains links to great chrome extensions that are worth having a look at
-
-
-https://chromewebstore.google.com/detail/simplify-twitter-web-ui/pobjlebhmdjbgfjhfdhblilmpjkegbfd
-https://chromewebstore.google.com/detail/control-panel-for-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj
-https://chromewebstore.google.com/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp
